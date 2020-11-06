@@ -1,0 +1,33 @@
+/*Primer selector por nombre de etiqueta*/
+/*Selector id # */
+/*Selector clase*/
+div{
+    background-color: black;
+    color:seashell;
+}
+h2{
+    color: brown;
+}
+#titulo{
+    color:saddlebrown;
+}
+
+.clase{
+    background-color: firebrick;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 20px;
+
+}
+.clase:first-child{
+    background-color: blueviolet;
+
+}
+.clase:last-child{
+    background-color: coral;
+
+}
+.clase:nth-child(3){
+    background-color: darkgreen;
+}
