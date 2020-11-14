@@ -1,0 +1,25 @@
+body{
+   background-color: slateblue; 
+   font-size: 10px;
+}
+#Caja_1{
+    background-color: snow;
+    font-size: 2em;
+    height: 300px;
+}
+#Caja_1 > .Cajas > p{
+    font-size: 2em;
+
+}
+#Caja_2{
+    background-color: thistle;
+}
+.Cajas{
+    background-color: violet;
+    width: 20%;
+    height: 200px;
+    /*border: 2px solid black;*/
+    margin-left: 4%;
+    margin-top: 20px;
+    float: left;
+}
