@@ -1,0 +1,98 @@
+/*Resetear el margen*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lightyellow;
+}
+
+#top{
+    background-color: orange;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+
+}
+
+.clase_rec{
+    background-color: firebrick;
+    height: 20px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.clase_rec:last-child{
+    background-color: firebrick;
+    height: 20px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#sep{
+    height: 400px;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center;
+}
+
+#cajas{
+    background-color: lightpink;
+    height: 270px;
+    text-align: center;
+}
+#cajas2{
+    background-color: lightblue;
+    height: 260px;
+}
+
+#cajas3{
+    background-color: cadetblue;
+    height: 300px;
+}
+#cajas3 > .Cajas3{
+    width: 50%;
+    background-color: cornflowerblue;
+    height: 250px;
+    margin-left: 25%;
+    margin-top: 30px;
+    float: left;
+    text-align: center;
+}
+
+.Cajas, .Cajas2{
+    background-color: purple;
+    width: 22%;
+    height: 250px;
+    margin-left: 3%;
+    margin-top: 10px;
+    float: left;
+    text-align: center;
+}
+#cajas2 >.Cajas2{
+    width: 45.4%;
+    height: 150px;
+    margin-top: 30px;
+}
+
+
+#cajas > .Cajas:last-child{
+    margin-right: 1%;
+    background-color: violet;
+    font-size: 30px;
+    border: dashed white;
+    text-align: center;
+}
+
+#cajas > .Cajas:first-child{
+    margin-left: 1%;
+    background-color: violet;
+    font-size: 30px;
+    border: dashed white;
+    text-align: center;
+}
