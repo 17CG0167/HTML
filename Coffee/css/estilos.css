@@ -28,6 +28,7 @@ header{
     border-bottom: 1px solid rgb(119, 103, 9);
     width: 100%;
     background-color: whitesmoke;
+    top: 0px;
 }
 
 header > #logo{
@@ -171,7 +172,7 @@ section#main .bola img{
 #contact fieldset input, #contact fieldset textarea{
     display: block;
     width: 90%;
-    border: 1px solid #eeeeee;
+    border: 1px solid #10183b;
     padding: 5px;
     outline-color: gray;
     height: 30px;
