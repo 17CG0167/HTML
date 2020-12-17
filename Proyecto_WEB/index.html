@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!--HEAD-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet"> <!-- Estilos de letra-->
     <link rel="stylesheet" href="./css/estilos.css">  <!-- hoja de estilos de CSS-->
 </head>
+<!--BODY-->
 <body>
  
+    <!--HEADER EN DONDE ESTA EL LOGO Y EL MENÚ-->
         <header>
             <div id="logo_reyes">
                 <img src="./images/milogoalfa.png" alt=""> <!-- Imagen de LOGO -->
@@ -24,58 +27,162 @@
                         <a href="#">Paquetes</a>
                     </li>
                     <li>
-                        <a href="#">Contactanos</a>
+                        <a  href="#">Sobre Nosotros</a>
                     </li>
                     <li>
-                        <a href="#">Inicio</a>
+                        <a href="./index.html">Inicio</a>
                     </li>
                     <li>
-                        <a href="#"><img src="./images/menu.ico" alt=""></a>
+                        <a id="esteno" href="#"><img src="./images/menu.ico" alt=""></a>
                     </li>
                 </ul>
             </nav>
         </header>
 
      
-        
+        <!--CENTRAL EN DONDE SE ENCUENTRA SLIDER, IZQUIERDA Y DERECHA DEL BODY-->
         <div id="central">
-            <div id="nav">
+
+            <!--DIV DE LA PARTE IZQUIERDA-->
+            <div id="izquierda">
+                <table border="0px" style="padding-left: 45px;">
+                    <tr width="99%">                   
+                        <td valign="top">     
+                         <div style="border-right:1px solid rgb(63, 55, 55); border-top-right-radius: 50px; border-bottom-right-radius: 50px; height:450px; padding-left:25px;"> <br> <br>
+                                   <div style="margin-right: 15px; background-image: url(./images/fondo.jpg);" id="img1">
+                                       <div style="margin-right: 15px;" id="info">
+                                           <p id="headline">EDICIONES</p>
+                                           <p id="headline2">Fotos tomadas principalmente en formato RAW para luego ser reveladas en Adobe Photoshop</p>
+                                       </div>
+                                    </div><br> 
+                             
+
+                                <div style=" padding-left:0px;"> 
+                                   <div style="margin-right: 15px; background-image: url(./images/xv.jpg);" id="img2">
+                                       <div style="margin-right: 15px;" id="info2">
+                                           <p id="headline3">XV Años</p>
+                                           <p id="headline4">Fotografías de eventos de quince años y pre-quince</p>
+                                       </div>
+                                    </div>
+                                </div> 
+                                
+                         </div> 
+                       </td>
+                    </tr>  
+                </table>
 
             </div>
-            <div id="section">
-                <div class="container">
 
+            <!--CONTAINER CENTRAL EN DONDE ESTA EL SLIDER-->
+            <div id="centro">
+                <div class="container">
                     <ul class="slider">
                         <li>
-                            <img style="width: 700px; height: 500px;" src="./images/_DSC1552.jpg" alt="">
+                            <img style="width: 800px; height: 450px;" src="./images/1.jpg" alt="">
                         </li>
                         <li>
-                            <img style="width: 700px; height: 500px; " src="./images/_DSC1559.jpg" alt="">
+                            <img style="width: 800px; height: 450px; " src="./images/2.jpg" alt="">
                         </li>
                         <li>
-                            <img style="width: 700px; height: 500px;" src="./images/_DSC1562.jpg" alt="">
+                            <img style="width: 800px; height: 450px;" src="./images/3.jpg" alt="">
                         </li>
                         <li>
-                            <img style="width: 700px; height: 500px;" src="./images/_DSC1562.jpg" alt="">
+                            <img style="width: 800px; height: 450px;" src="./images/4.jpg" alt="">
                         </li>
-                    </ul>
-
-                    <div id="aside">
-
-                    </div>
+                        <li>
+                            <img style="width: 800px; height: 450px;" src="./images/5.jpg" alt="">
+                        </li>
+                        <li>
+                            <img style="width: 800px; height: 450px;" src="./images/5.jpg" alt="">
+                        </li>
+                    </ul> 
                 </div>
             </div>
-           
-        </div>
 
-        <div class="footer">
-
-        </div>
-       
-         
-   
+            <!--DERECHA CENTRO-->
+            <div id="derecha">
+                <table border="0px" style="padding-left: 30px;">
+                    <tr width="99%">                         
+                        <td valign="top">     
+                            <div style="border-left:1px solid rgb(63, 55, 55); border-top-left-radius: 50px; border-bottom-left-radius: 50px; height:450px; padding-left:20px;"> <br> <br>
+                                    <h2>Teléfono</h2>
+                                    <FONT SIZE=3>(636) 112-74-81</font> <br> <br>  <hr> 
+                                                                                            
+                                <div>
+                                    <h2>Correo</h2>
+                                    <FONT SIZE=3>
+                                     <a id="correo" href="mailto:hector.skate99@gmail.com"style="font-size:15px">Escribeme</a>
+                                    </FONT>
+                                </div> <br>  <hr>                                         
+                                <div>
+                                    <h2>Actividad</h2>
+                                    <FONT SIZE=3>Fotografía / Video / Edición</font>
+                                </div> <br> <br>  <hr>
+                                <div>
+                                    <h2>Sociales</h2>
+                                    <li id="sociales">
+                                        <a id="facebook" href="https://www.facebook.com/HectorSkReyes" target="_blank"><img src="./images/facebook.ico" alt=""></a>
+                                        <a id="instagram" href="https://www.instagram.com/reyes.arw/" target="_blank"><img src="./images/instagram.ico" alt=""></a>
+                                    </li>
+                                </div>
+                           </div> 
+                        </td>
+                    </tr>  
+                </table>
+            </div> 
+            <!--FOOTER-->
+                            <div class="footer">
+                                <div>
+                                    <ul>
+                                       
+                                        <li>
+                                            <div> 
+                                                <div style="background-image: url(./images/Largaexpo.jpg);" id="img3">
+                                                    <div  id="info3">
+                                                        <p id="headline5">LARGA EXPOSICIÓN</p>
+                                                        <p id="headline6">Son Fotografías en las que el sensor queda expuesto durante segundos</p>
+                                                    </div>
+                                                 </div>
+                                            </div>
+                                        </li>
+                                       
+                                        <li>
+                                             <div>
+                                                <div style="background-image: url(./images/paisaje.jpg);" id="img4">
+                                                    <div  id="info4">
+                                                        <p id="headline7">PAISAJE</p>
+                                                        <p id="headline8">Fotografías tomadas al aire libre de paisajes naturales</p>
+                                                    </div>
+                                                 </div>
+                                            </div>     
+                                        </li>
+                                    
+                                        <li>         
+                                            <div>
+                                               <div style="background-image: url(./images/street.jpeg);" id="img5">
+                                                   <div id="info5">
+                                                       <p id="headline9">CALLEJERA</p>
+                                                       <p id="headline10">Fotografías tomadas en las calles urbanas</p>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                       
+                                        <li>         
+                                            <div>
+                                               <div style="background-image: url(./images/retrato.jpeg);" id="img6">
+                                                   <div id="info6">
+                                                       <p id="headline11">RETRATO</p>
+                                                       <p id="headline12">Fotografías principalmente de personas en modo retrato</p>
+                                                   </div>
+                                                </div>
+                                            </div>
+                                        </li>
+            
+                                    </ul>
+                                </div>
+                            </div>
+        </div>                   
 </body>
-
-
 
 </html>
